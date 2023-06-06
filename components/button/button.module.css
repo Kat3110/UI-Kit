@@ -1,0 +1,29 @@
+.button {
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    color: var(--white);
+    background: beige;
+    border-radius: 10px;
+}
+.button:disabled {
+    opacity: 0.5;
+    cursor: auto;
+}
+
+.rounded {
+    border-radius: 30px;
+}
+
+.sizeS {
+    padding: 5px 10px;
+}
+
+.sizeM {
+    padding: 10px 25px;
+}
+
+.sizeL {
+    padding: 10px 35px;
+}

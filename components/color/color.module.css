@@ -1,0 +1,42 @@
+.card {
+    height: 190px;
+    max-width: 160px;
+    width: 100%;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    box-shadow: 6px 9px 10px 1px rgba(199,201,240,0.37);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    box-shadow: 16px 15px 19px 1px rgba(190,194,247,0.37);
+}
+
+.color {
+    height: 140px;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    background: gray;
+}
+
+.data, text {
+    color: var(--violet);
+    background: var(--white);
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+}
+
+.gradient {
+    max-width: 600px;
+}
+
+.gradient .data {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
