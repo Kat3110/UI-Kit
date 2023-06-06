@@ -5,7 +5,7 @@
     border-radius: 12px;
     transition: all 0.5s ease;
     box-shadow: 6px 9px 10px 1px rgba(199,201,240,0.37);
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .card:hover {
@@ -18,6 +18,14 @@
     width: 100%;
     border-radius: 12px 12px 0 0;
     background: gray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.color i{
+    font-size: 20px;
 }
 
 .data, text {
@@ -39,4 +47,16 @@
     display: flex;
     justify-content: space-between;
     font-weight: 600;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.copy {
+    color: #83f806;
+}
+
+.notcopy {
+    color: #4a4c54;
 }

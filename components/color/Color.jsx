@@ -1,3 +1,4 @@
+'use client'
 import styles from './color.module.css';
 import { useState, useEffect } from 'react';
 
@@ -5,6 +6,8 @@ export function Color({ color, isGradient }) {
   const [firstColor, setFirstColor] = useState('');
   const [secondColor, setSecondColor] = useState('');
   const [angleInPercent, setAngleInPercent] = useState('');
+
+  const [isCopied, setIsCopied] = useState(false);
 
   useEffect(() => {
     if (isGradient) {
@@ -21,9 +24,22 @@ export function Color({ color, isGradient }) {
     }
   }, [isGradient, color]);
 
+  const handleCopyClick = (c) => {
+    navigator.clipboard.writeText(c).then(() => {
+      setIsCopied(true);
+      setTimeout(() => setIsCopied(false), 1000);
+    });
+  };
+
   return (
     <div className={`${styles.card} ${isGradient ? styles.gradient : ''}`}>
-      <div className={styles.color} style={{ background: `${color}` }}></div>
+      <div className={styles.color} style={{ background: `${color}` }}>
+        <i
+          title={isCopied ? 'Copied!' : 'Copy'}
+          className={`bx bx-copy bx-tada ${styles.icon} ${isCopied ? `${styles.copy}` : `${styles.notcopy}`}`}
+          onClick={() => {handleCopyClick(color)}}
+        />
+      </div>
       <div className={styles.data}>
         {isGradient ? null : color}
         {isGradient && (

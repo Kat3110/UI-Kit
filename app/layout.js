@@ -4,13 +4,13 @@ import Link from 'next/link';
 
 const inter = Inter({subsets: ['latin']})
 
-export const metadata = {
-  title: 'UI Kit',
-}
-
 export default function RootLayout({children}) {
   return (
     <html lang="en">
+      <head>
+        <title>UI Kit test</title>
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"></link>
+      </head>
       <body className={inter.className}>
         <nav className='nav'>
           <Link href="/button">Button</Link>
