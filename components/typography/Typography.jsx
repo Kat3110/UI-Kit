@@ -1,10 +1,13 @@
 import styles from './typography.module.css';
 
-export function Typography() {
+export function Typography({title, subtitle, size, name}) {
 
   return (
-    <div className={styles.typography}>
-      <h1>Typography</h1>
+    <div>
+      <div className={`${styles.card} && ${name}`}>
+        <h3 className={styles.title}>{title}</h3>
+        <span className={styles.subtitle}>{subtitle}<br />{size}</span>
+      </div>
     </div>
   )
 }

@@ -165,6 +165,7 @@ export default function Colors() {
   return (
     <>
       <h1>Сolors</h1>
+      <div className='block'>
         <div className={styles.card}>
           <h2>primary colors</h2>
           <hr/>
@@ -230,7 +231,7 @@ export default function Colors() {
             ))}
           </div>
         </div>
-
+      </div>
     </>
   )
 }
