@@ -29,14 +29,8 @@ body {
     display: flex;
     flex-direction: row;
     gap: 100px;
-    padding: 50px;
+    /*padding: 50px;*/
     color: var(--black);
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 }
 
 h1 {
@@ -75,13 +69,6 @@ hr {
     height: 1px;
     background-color: #ECE9F1;
     border: none;
-}
-
-.nav {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
 }
 
 .block {

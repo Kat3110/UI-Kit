@@ -1,5 +1,5 @@
 "use client"
-import styles from "@/app/typography/typography.module.css";
+import styles from "./typography.module.css";
 import { Typography } from "@/components/typography/Typography";
 
 const cards = [
