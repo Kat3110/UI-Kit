@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
 :root {
     --blue: #6979F8;
     --black: #1A051D;
     --violet: #3F3356;
-    --grey-white: #f6f6fd;
+    --grey-white: #f0f0f0;
     --white: #FFF;
 }
 
@@ -147,4 +147,12 @@ hr {
 .small-text {
     font-size: 11px;
     line-height: 13px;
+}
+
+.bx-tada {
+    animation: none !important;
+}
+
+.bx-tada:hover {
+    animation: tada 1.5s ease infinite !important;
 }

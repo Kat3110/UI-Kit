@@ -1,0 +1,119 @@
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.title {
+    font-size: 110px;
+    line-height: 109%;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    text-shadow: 5px 5px var(--blue);
+    color: var(--violet);
+    font-family: 'Kablammo', cursive;
+}
+
+.description,
+.description a {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+    font-family: 'Kablammo', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.parallax {
+    overflow: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    z-index: 10;
+    transition: transform 0.2s ease;
+}
+
+.transform {
+    position: absolute;
+    z-index: 10;
+    transition: transform 0.2s ease;
+    animation: moving 3s infinite linear;
+}
+
+.image {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.layer3 {
+    top: calc(50% - 350px);
+}
+
+.layer4 {
+    left: -90px;
+    bottom: -100px;
+    z-index: 13;
+}
+
+.layer5 {
+    right: 50px;
+    bottom: -50px;
+    z-index: 12;
+}
+
+.layer6 {
+    right: calc(100% - 500px);
+    top: calc(50% - 600px);
+    z-index: 12;
+}
+
+.layer7 {
+    right: 10px;
+    bottom: calc(100% - 300px);
+    z-index: 12;
+}
+
+.transform2 {
+    right: 10px;
+    bottom: calc(100% - 600px);
+
+}
+
+.transform3 {
+    right: calc(100% - 300px);
+    top: calc(50% - 100px);
+
+}
+
+.transform1 {
+    right: calc(100% - 600px);
+    top: calc(50% - 500px);
+}
+
+@keyframes moving {
+    100% {transform: rotate(-360deg);}
+}
+@media (max-width: 767px) {
+    .layer4 {
+        width: 50%;
+        left: -10%;
+        bottom: -13%;
+    }
+
+    .layer5 {
+        width: 50%;
+        right: -9%;
+        bottom: -7%;
+    }
+}

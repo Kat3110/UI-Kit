@@ -16,7 +16,7 @@ export default function RootLayout({children}) {
           <Link href="/button">Button</Link>
           <Link href="/colors">Colors</Link>
           <Link href="/typography">Typography</Link>
-          <Link href="/#">Button4</Link>
+          <Link href="/error">Error</Link>
           <Link href="/#">Button5</Link>
         </nav>
         <main>{children}</main>

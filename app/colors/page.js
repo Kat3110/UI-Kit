@@ -3,11 +3,6 @@ import {Color} from "@/components/color/Color";
 import styles from './colors.module.css';
 
 const cards = [
-  // {
-  //   id: 0,
-  //   background: '',
-  //   title: 'PRIMARY colors'
-  // },
   {
     id: 1,
     background: '#BE52F2',
