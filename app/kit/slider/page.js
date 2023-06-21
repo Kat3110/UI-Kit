@@ -1,62 +1,11 @@
-// "use client"
-// import styles from "./slider.module.css";
-// import Image from 'next/image';
-// import Acc from "@/public/121.png";
-//
-// export default function Slider() {
-//
-//
-//   const sliderBox = document.querySelector('.slider');
-//   const slides = sliderBox.querySelectorAll('.item');
-//   const btnPrev = sliderBox.querySelector('.prev');
-//   const btnNext = sliderBox.querySelector('.next');
-//
-//   let counter = 0;
-//
-//   btnNext.addEventListener('click', function() {
-//     slides[counter].classList.toggle('current');
-//     counter++;
-//     if (counter >= slides.length) {
-//       counter = 0;
-//     }
-//     slides[counter].classList.toggle('current');
-//   });
-//
-//   btnPrev.addEventListener('click', function() {
-//     slides[counter].classList.toggle('current');
-//     counter--;
-//     if (counter < 0) {
-//       counter = slides.length - 1;
-//     }
-//     slides[counter].classList.toggle('current');
-//   });
-//   return (
-//     <div className="wrap">
-//       <section className="slider">
-//         <div className="item current">
-//           <Image className={styles.image} src={Acc} alt="slide"/>
-//         </div>
-//         <div className="item">
-//           <Image className={styles.image} src={Acc} alt="slide"/>
-//         </div>
-//         <div className="item">
-//           <Image className={styles.image} src={Acc} alt="slide"/>
-//         </div>
-//
-//         <button type="button" className="btn prev">
-//           <Image src={Acc} alt="prev"/>
-//         </button>
-//         <button type="button" className="btn next">
-//           <Image src={Acc} alt="next"/>
-//         </button>
-//       </section>
-//     </div>
-//   )
-// }
 "use client"
-import { useState } from 'react';
+import {useState} from 'react';
 import Image from 'next/image';
-import Acc from '@/public/121.png';
+import travelling from '@/public/travelling.jpg';
+import travelling1 from '@/public/travelling1.jpeg';
+import travelling2 from '@/public/travelling2.jpg';
+import travelling3 from '@/public/travelling3.jpg';
+import travelling4 from '@/public/travelling4.jpg';
 import styles from './slider.module.css';
 
 function Slider() {
@@ -65,6 +14,7 @@ function Slider() {
   function handlePrevClick() {
     setCounter((prevCounter) => (prevCounter - 1 + slides.length) % slides.length);
   }
+
   function handleNextClick() {
     setCounter((prevCounter) => (prevCounter + 1) % slides.length);
   }
@@ -72,37 +22,58 @@ function Slider() {
   const slides = [
     {
       id: 1,
-      src: Acc,
+      src: travelling,
       alt: 'Slide 1',
     },
     {
       id: 2,
-      src: Acc,
+      src: travelling1,
       alt: 'Slide 2',
     },
     {
       id: 3,
-      src: Acc,
+      src: travelling2,
       alt: 'Slide 3',
+    },
+    {
+      id: 4,
+      src: travelling3,
+      alt: 'Slide 4',
+    },
+    {
+      id: 5,
+      src: travelling4,
+      alt: 'Slide 5',
     },
   ];
 
   return (
-    <div className="wrap">
-      <section className="slider">
-        {slides.map((slide, index) => (
-          <div className={index === counter ? 'item current' : 'item'} key={slide.id}>
-            <Image className={styles.image} src={slide.src} alt={slide.alt} />
-          </div>
-        ))}
-        <button type="button" className="btn prev" onClick={handlePrevClick}>
-          <Image src={Acc} alt="prev" />
-        </button>
-        <button type="button" className="btn next" onClick={handleNextClick}>
-          <Image src={Acc} alt="next" />
-        </button>
-      </section>
-    </div>
+    <>
+      <h1>slider</h1>
+      <div className={styles.box}>
+        <h2>Infinite Image slider</h2>
+        <hr/>
+        <div className={styles.wrap}>
+          <section className={styles.slider}>
+            {slides.map((slide, index) => (
+              <div className={index === counter ? `${styles.current}` : `${styles.item}`} key={slide.id}>
+                <Image className={styles.image} src={slide.src} alt={slide.alt}/>
+              </div>
+            ))}
+            <button type="button" className={`${styles.btn} ${styles.prev}`} onClick={handlePrevClick}>
+              <i className='bx bx-chevron-left'></i>
+            </button>
+            <button type="button" className={`${styles.btn} ${styles.next}`} onClick={handleNextClick}>
+              <i className='bx bx-chevron-right'></i>
+            </button>
+          </section>
+        </div>
+
+
+        <h2>Animation of images and slider captions</h2>
+        <hr/>
+      </div>
+    </>
   );
 }
 

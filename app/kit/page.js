@@ -1,7 +1,7 @@
 export default function Kit() {
   return (
     <>
-      Kit
+      <h1>kit</h1>
     </>
   );
 }
