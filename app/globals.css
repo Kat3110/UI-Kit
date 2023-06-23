@@ -6,6 +6,8 @@
     --violet: #3F3356;
     --grey-white: #f0f0f0;
     --white: #FFF;
+    --dark-blue: #003a75;
+    --light-blue: #f3f6f9;
 }
 
 * {
@@ -67,7 +69,7 @@ a {
 hr {
     width: 100%;
     height: 1px;
-    background-color: #ECE9F1;
+    background-color: #e1e0e2;
     border: none;
 }
 
