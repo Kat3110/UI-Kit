@@ -6,6 +6,7 @@
     align-items: center;
     gap: 30px;
     width: 100%;
+    background-color: var(--black);
 }
 
 .title {
@@ -16,8 +17,7 @@
     position: relative;
     z-index: 100;
     text-shadow: 5px 5px var(--blue);
-    color: var(--violet);
-    font-family: 'Kablammo', cursive;
+    color: var(--white);
 }
 
 .description,
@@ -26,10 +26,26 @@
     margin: 0;
     position: relative;
     z-index: 100;
-    font-family: 'Kablammo', cursive;
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    color: var(--grey-white);
+    transition: color 0.4s ease;
+    font-weight: 600;
+}
+
+.description a {
+    color: var(--blue);
+    transition: color 0.3s ease;
+}
+
+.description a:hover {
+    color: var(--grey-white);
+    transition: color 0.3s ease;
+}
+
+.box {
+    opacity: 0.6;
 }
 
 .parallax {
@@ -47,8 +63,8 @@
 .transform {
     position: absolute;
     z-index: 10;
-    transition: transform 0.2s ease;
-    animation: moving 3s infinite linear;
+    transition: transform 0.3s ease;
+    animation: moving 5s infinite linear;
 }
 
 .image {
@@ -59,6 +75,7 @@
 
 .layer3 {
     top: calc(50% - 350px);
+    right: 50%;
 }
 
 .layer4 {

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import styles from './slider-text.module.css';
 
-function SliderText({ slide }) {
+export default function SliderText({ slide }) {
   const [counter, setCounter] = useState(0);
 
   function handlePrevClick() {
@@ -18,26 +18,7 @@ function SliderText({ slide }) {
     <>
       <div className={styles.wrap}>
         <section className={styles.slider}>
-          <h2 className={styles.hidden}>Мы предлагаем</h2>
-
           {slide.map((slide, index) => (
-            // <div
-            //   key={index}
-            //   className={`${styles.item} ${index === counter ? styles.current : ''}`}
-            //   style={{ transform: `translate(${100 * (index - counter)}%)` }}
-            // >
-            //   <Image
-            //     className={styles.img}
-            //     src={slide.src}
-            //     alt={slide.alt}
-            //   />
-            //   <h3 className={styles.title}>
-            //     {slide.text}
-            //     {slide.text.map((line, i) => (
-            //       <span key={i} className={styles.line}>{line}</span>
-            //     ))}
-            //   </h3>
-            // </div>
             <div
               className={index === counter ? `${styles.current}` : `${styles.item}`}
               key={slide.id}
@@ -81,5 +62,3 @@ function SliderText({ slide }) {
     </>
   );
 }
-
-export default SliderText;

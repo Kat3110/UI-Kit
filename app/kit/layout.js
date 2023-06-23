@@ -11,6 +11,7 @@ export default function RootLayout({children}) {
         <Link href="kit/typography">Typography</Link>
         <Link href="/error">Error</Link>
         <Link href="kit/slider">Slider</Link>
+        <Link href="kit/tabs">Tabs</Link>
       </nav>
       <div className={styles.kit}>{children}</div>
     </>
