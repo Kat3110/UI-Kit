@@ -7,11 +7,12 @@
     justify-content: center;
     gap: 16px;
     height: 229px;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
     background: var(--grey-white);
 }
 
 .card:hover {
+    transition: all 0.6s ease;
     transform: scale(1.02);
     box-shadow: 16px 15px 19px 1px rgba(190, 194, 247, 0.37);
     border-radius: 18px;
