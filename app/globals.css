@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
 
 :root {
     --blue: #6979F8;
@@ -281,7 +280,7 @@ hr {
         transform: skew(-2deg, 0deg) translate(600px, 30px) ;
     }
     60% {
-        transform: skew(2deg, 2deg) translate(777px, 200px);
+        transform: skew(2deg, 2deg) translate(777px, 200px) rotate(15deg);
     }
     70% {
         transform: skew(0deg, 1deg) translate(577px, 40px);
@@ -290,7 +289,7 @@ hr {
         transform: skew(-2deg, 0deg) translate(77px, 0px);;
     }
     90% {
-        transform: skew(2deg, 1deg) translate(677px, -300px);
+        transform: skew(2deg, 1deg) translate(677px, -300px)rotate(10deg);
     }
     100% {
         transform: skew(0deg, 2deg) translate(607px, -100px);;
@@ -303,7 +302,7 @@ hr {
     position: absolute;
     top: 55px;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    animation: gradient-animation 15s ease-in-out infinite alternate;
+    animation: gradient-animation 5s ease-in-out infinite alternate;
     z-index: -1;
     filter: blur(15px);
     box-shadow: 0 14px 6px 2px rgba(255, 0, 255, 1);

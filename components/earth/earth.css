@@ -11,11 +11,11 @@
 }
 
 
-@media (max-width: 1680px) {
-    .earth canvas{
-        width: 600px !important;
-    }
-}
+/*@media (max-width: 1680px) {*/
+/*    .earth canvas{*/
+/*        width: 600px !important;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 800px) {
     .earth{

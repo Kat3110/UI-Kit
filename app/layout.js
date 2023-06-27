@@ -1,7 +1,4 @@
 import './globals.css'
-import {Inter} from 'next/font/google'
-
-const inter = Inter({subsets: ['latin']})
 
 export default function RootLayout({children}) {
   return (
@@ -10,7 +7,7 @@ export default function RootLayout({children}) {
         <title>UI Kit test</title>
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"></link>
       </head>
-      <body className={inter.className}>
+      <body >
         {children}
       </body>
     </html>)

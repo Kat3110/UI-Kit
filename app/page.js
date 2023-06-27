@@ -5,7 +5,6 @@ import Image from "next/image";
 import Sputnik from '../public/sp.png'
 import nlo from '../public/nlo.png'
 import React from "react";
-// import {useRef, useState, useEffect} from "react";
 
 
 export default function Home() {
