@@ -10,7 +10,8 @@ export function Button({
                          hoverBg,
                          hoverColor,
                          children,
-                         disabled
+                         disabled,
+                         icon
                        }) {
 
   const [isHover, setIsHover] = useState(false);
@@ -21,17 +22,18 @@ export function Button({
       onMouseLeave={() => setIsHover(false)}
       className={`
         ${styles.button} 
-        ${!size ? styles.sizeM : size === 'l' ? styles.sizeL : size === 's' ? styles.sizeS : ''}
+        ${!size ? styles.sizeM : size === 'L' ? styles.sizeL : size === 'S' ? styles.sizeS : ''}
      `}
       style={{
         fontSize: fontS ? fontS : null,
         borderRadius: rounded ? rounded : null,
         background: isHover && hoverBg ? hoverBg : (bg ? bg : null),
         color: isHover && hoverColor ? hoverColor : (color ? color : null),
+        i: icon ? icon : null,
       }}
       disabled={!!disabled}
     >
-      {children ? children : 'Click Me'}
+      {icon ? <i className={icon}></i>: ''}{children ? children : 'Click Me'}
     </button>
   )
 }

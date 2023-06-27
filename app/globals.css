@@ -79,6 +79,13 @@ hr {
     gap: 30px;
 }
 
+.block__btn {
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
 .color__card-box {
     display: flex;
 }

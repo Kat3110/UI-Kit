@@ -2,10 +2,20 @@
     text-align: center;
     border: 0;
     cursor: pointer;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
     color: var(--white);
-    background: beige;
+    background: var(--black);
     border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.button:hover {
+    transition: all 0.5s ease;
+    color: var(--black);
+    background: var(--white);
+    box-shadow: 16px 15px 19px 1px rgba(190, 194, 247, 0.37);
 }
 
 .button:disabled {
