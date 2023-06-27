@@ -4,6 +4,7 @@ import '../earth/earth.css'
 
 const Earth = () => {
   const containerRef = useRef(null);
+  const canvasRef = useRef(null);
 
   useEffect(() => {
     const scene = new THREE.Scene();
@@ -15,7 +16,7 @@ const Earth = () => {
     );
 
     camera.position.z = 5;
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, canvas: canvasRef.current });
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setClearColor(0x000000, 0);
 
@@ -46,7 +47,9 @@ const Earth = () => {
   }, []);
 
   return (
-    <div className='earth' ref={containerRef} />
+    <div className='earth' ref={containerRef}>
+      <canvas ref={canvasRef} />
+    </div>
   );
 };
 

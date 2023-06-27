@@ -10,9 +10,6 @@
     object-fit: contain !important;
 }
 
-.earth canvas:first-of-type{
-    display: none !important;
-}
 
 /*@media screen and (max-width: 1680px) {*/
 /*    .earth canvas{*/
