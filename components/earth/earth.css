@@ -11,8 +11,19 @@
 }
 
 
-/*@media screen and (max-width: 1680px) {*/
-/*    .earth canvas{*/
-/*        width: 600px !important;*/
-/*    }*/
-/*}*/
+@media (max-width: 1680px) {
+    .earth canvas{
+        width: 600px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .earth{
+        bottom: -100px;
+        right: -100px;
+    }
+    .earth canvas{
+        width: 200px !important;
+        height: 200px !important;
+    }
+}

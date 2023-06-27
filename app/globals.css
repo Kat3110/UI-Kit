@@ -163,6 +163,7 @@ hr {
     align-items: center;
     height: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .home__box {
@@ -341,5 +342,29 @@ hr {
     }
     100% {
         background-image: linear-gradient(to left ,rgba(255, 0, 0, 0.35), rgba(0, 89, 255, 0.35), rgba(0, 234, 255, 0.35));
+    }
+}
+
+@media  (max-width: 800px) {
+    .home__box {
+        max-width: 350px;
+        padding: 15px 10px;
+        gap: 15px;
+        z-index: 40;
+    }
+
+    .home__title {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .home__subtitle {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .home__button {
+        padding: 10px 15px;
+        font-size: 14px;
     }
 }
