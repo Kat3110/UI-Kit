@@ -5,13 +5,13 @@ export default function RootLayout({children}) {
   return (
     <>
       <nav className={styles.nav} >
-        <Link href="/">Home</Link>
-        <Link href="kit/button">Button</Link>
-        <Link href="kit/colors">Colors</Link>
-        <Link href="kit/typography">Typography</Link>
-        <Link href="/error">Error</Link>
-        <Link href="kit/slider">Slider</Link>
-        <Link href="kit/tabs">Tabs</Link>
+        <Link className={styles.link} href="/">Home</Link>
+        <Link className={styles.link} href="kit/button">Button</Link>
+        <Link className={styles.link} href="kit/colors">Colors</Link>
+        <Link className={styles.link} href="kit/typography">Typography</Link>
+        <Link className={styles.link} href="/error">Error</Link>
+        <Link className={styles.link} href="kit/slider">Slider</Link>
+        <Link className={styles.link} href="kit/tabs">Tabs</Link>
       </nav>
       <div className={styles.kit}>{children}</div>
     </>
