@@ -122,16 +122,34 @@
 @keyframes moving {
     100% {transform: rotate(-360deg);}
 }
+
+
+@media (max-width: 900px) {
+    .layer3 {
+       display: none;
+    }
+}
+
 @media (max-width: 767px) {
-    .layer4 {
-        width: 50%;
-        left: -10%;
-        bottom: -13%;
+    .layer4, .layer5, .layer6, .layer7 {
+        display: none;
     }
 
-    .layer5 {
-        width: 50%;
-        right: -9%;
-        bottom: -7%;
+    .transform1 {
+        right: calc(100% - 30%);
+        top: calc(50% - 300px);
     }
+
+    .transform2 {
+        right: 10px;
+        bottom: calc(100% - 80%);
+
+    }
+
+    .transform3 {
+        right: calc(100% - 90%);
+        top: calc(50% - 500px);
+
+    }
+
 }
