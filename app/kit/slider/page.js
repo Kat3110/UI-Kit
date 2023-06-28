@@ -43,35 +43,35 @@ export default function Slider() {
       src: space,
       alt: 'Slide 1',
       text: "notes of cosmonaut",
-      subtitle: ' journey begins'
+      subtitle: 'journey through universe'
     },
     {
       id: 2,
       src: space1,
       alt: 'Slide 2',
-      text: "traveler's diary",
-      subtitle: ' journey begins'
+      text: "notes of cosmonaut",
+      subtitle: 'journey through universe'
     },
     {
       id: 3,
       src: space2,
       alt: 'Slide 3',
-      text: "traveler's diary",
-      subtitle: ' journey begins'
+      text: "notes of cosmonaut",
+      subtitle: 'journey through universe'
     },
     {
       id: 4,
       src: space3,
       alt: 'Slide 4',
-      text: "traveler's diary",
-      subtitle: ' journey begins'
+      text: "notes of cosmonaut",
+      subtitle: 'journey through universe'
     },
     {
       id: 5,
       src: space4,
       alt: 'Slide 5',
-      text: "traveler's diary",
-      subtitle: ' journey begins'
+      text: "notes of cosmonaut",
+      subtitle: 'journey through universe'
     },
   ];
 

@@ -10,12 +10,18 @@ export default function RootLayout({ children }) {
     setIsActive(!isActive);
   };
 
+  const handleKitClick = () => {
+    if (isActive) {
+      setIsActive(false);
+    }
+  };
+
   return (
     <>
       <button className={styles.menu} onClick={toggleMenu}>
         <i className='bx bx-menu-alt-left'></i>
       </button>
-      <nav className={`${styles.nav} ${isActive ? styles.active : ''}`}>
+      <nav  className={`${styles.nav} ${isActive ? styles.active : ''}`}>
         <button className={styles.close} onClick={toggleMenu}>
           <i className='bx bx-x'></i>
         </button>
@@ -28,7 +34,7 @@ export default function RootLayout({ children }) {
         <Link className={styles.link} href="kit/tabs">Tabs</Link>
         <Link className={styles.link} href="kit/cards">Card</Link>
       </nav>
-      <div className={styles.kit}>{children}</div>
+      <div className={styles.kit} onClick={handleKitClick}>{children}</div>
     </>
   );
 }

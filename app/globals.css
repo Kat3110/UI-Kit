@@ -86,6 +86,14 @@ hr {
     width: 100%;
 }
 
+.block__card {
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 .color__card-box {
     display: flex;
 }
