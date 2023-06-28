@@ -30,3 +30,9 @@
     opacity: 0.7;
 }
 
+@media (max-width: 600px) {
+    .card {
+        padding: 20px 20px 30px;
+        height: max-content;
+    }
+}

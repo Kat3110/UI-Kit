@@ -31,7 +31,7 @@ body {
 body {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 70px;
     color: var(--black);
 }
 
@@ -257,7 +257,7 @@ hr {
     width: 90px;
     height: 90px;
     object-fit: contain;
-    z-index: 0 ;
+    z-index: 0;
 }
 
 @keyframes move-nlo {
@@ -277,7 +277,7 @@ hr {
         transform: skew(-2deg, 0deg) translate(600px, 30px) rotate(15deg);
     }
     57% {
-        transform: skew(-2deg, 0deg) translate(600px, 30px) ;
+        transform: skew(-2deg, 0deg) translate(600px, 30px);
     }
     60% {
         transform: skew(2deg, 2deg) translate(777px, 200px) rotate(15deg);
@@ -289,7 +289,7 @@ hr {
         transform: skew(-2deg, 0deg) translate(77px, 0px);;
     }
     90% {
-        transform: skew(2deg, 1deg) translate(677px, -300px)rotate(10deg);
+        transform: skew(2deg, 1deg) translate(677px, -300px) rotate(10deg);
     }
     100% {
         transform: skew(0deg, 2deg) translate(607px, -100px);;
@@ -310,41 +310,57 @@ hr {
 
 @keyframes gradient-animation {
     0% {
-        background-image: linear-gradient(to left , rgba(140, 0, 255, 0.35), rgba(255, 0, 255, 0.35), rgba(0, 255, 128, 0.35));
+        background-image: linear-gradient(to left, rgba(140, 0, 255, 0.35), rgba(255, 0, 255, 0.35), rgba(0, 255, 128, 0.35));
     }
     10% {
-        background-image: linear-gradient(to left , rgba(0, 255, 128, 0.35), rgba(0, 128, 255, 0.35), rgba(255, 128, 0, 0.35));
+        background-image: linear-gradient(to left, rgba(0, 255, 128, 0.35), rgba(0, 128, 255, 0.35), rgba(255, 128, 0, 0.35));
     }
     20% {
         background-image: linear-gradient(to left, rgba(255, 128, 0, 0.35), rgba(255, 255, 0, 0.35), rgba(255, 0, 0, 0.35));
     }
     30% {
-        background-image: linear-gradient(to left, rgba(255, 0, 0, 0.35) , rgba(0, 89, 255, 0.35), rgba(0, 234, 255, 0.35));
+        background-image: linear-gradient(to left, rgba(255, 0, 0, 0.35), rgba(0, 89, 255, 0.35), rgba(0, 234, 255, 0.35));
     }
     40% {
         background-image: linear-gradient(to left, rgba(0, 234, 255, 0.35), rgba(0, 255, 119, 0.35), rgba(255, 221, 0, 0.35));
     }
     50% {
-        background-image: linear-gradient(to left , rgba(255, 221, 0, 0.35),rgba(140, 0, 255, 0.35), rgba(255, 0, 255, 0.35));
+        background-image: linear-gradient(to left, rgba(255, 221, 0, 0.35), rgba(140, 0, 255, 0.35), rgba(255, 0, 255, 0.35));
     }
     60% {
-        background-image: linear-gradient(to left , rgba(255, 0, 255, 0.35),  rgba(0, 255, 128, 0.35),  rgba(0, 255, 128, 0.35));
+        background-image: linear-gradient(to left, rgba(255, 0, 255, 0.35), rgba(0, 255, 128, 0.35), rgba(0, 255, 128, 0.35));
     }
     70% {
-        background-image: linear-gradient(to left ,  rgba(0, 255, 128, 0.35),rgba(0, 128, 255, 0.35), rgba(255, 128, 0, 0.35));
+        background-image: linear-gradient(to left, rgba(0, 255, 128, 0.35), rgba(0, 128, 255, 0.35), rgba(255, 128, 0, 0.35));
     }
     80% {
-        background-image: linear-gradient(to left , rgba(255, 128, 0, 0.35),  rgba(255, 128, 0, 0.35), rgba(255, 255, 0, 0.35));
+        background-image: linear-gradient(to left, rgba(255, 128, 0, 0.35), rgba(255, 128, 0, 0.35), rgba(255, 255, 0, 0.35));
     }
     90% {
-        background-image: linear-gradient(to left ,rgba(255, 255, 0, 0.35),  rgba(255, 0, 0, 0.35), rgba(255, 0, 0, 0.35));
+        background-image: linear-gradient(to left, rgba(255, 255, 0, 0.35), rgba(255, 0, 0, 0.35), rgba(255, 0, 0, 0.35));
     }
     100% {
-        background-image: linear-gradient(to left ,rgba(255, 0, 0, 0.35), rgba(0, 89, 255, 0.35), rgba(0, 234, 255, 0.35));
+        background-image: linear-gradient(to left, rgba(255, 0, 0, 0.35), rgba(0, 89, 255, 0.35), rgba(0, 234, 255, 0.35));
     }
 }
 
-@media  (max-width: 800px) {
+@media (max-width: 800px) {
+    h1 {
+        font-size: 18px;
+        line-height: 20px;
+        gap: 13px;
+        margin-bottom: 50px;
+    }
+
+    h1:before {
+        height: 20px;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     .home__box {
         max-width: 350px;
         padding: 15px 10px;
@@ -365,5 +381,15 @@ hr {
     .home__button {
         padding: 10px 15px;
         font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        gap: 5px;
+    }
+
+    .block__btn {
+        flex-direction: column;
     }
 }

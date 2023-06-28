@@ -26,3 +26,27 @@
     grid-column-gap: 0;
     grid-row-gap: 0;
 }
+
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 60px;
+        line-height: 89px;
+    }
+    .subtitle {
+        font-size: 33px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

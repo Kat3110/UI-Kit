@@ -38,3 +38,9 @@
 .sizeL {
     padding: 10px 35px;
 }
+
+@media (max-width: 600px) {
+    .button {
+        width: fit-content;
+    }
+}
