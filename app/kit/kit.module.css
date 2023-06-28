@@ -11,7 +11,7 @@
     gap: 15px;
     align-items: start;
     padding: 50px 0 50px 50px;
-    z-index: 100;
+    z-index: 1000;
     position: fixed;
     top: 0;
     left: -250px;
@@ -124,14 +124,6 @@
     font-weight: 600;
 }
 
-@media (max-width: 800px) {
-    /*.nav {*/
-    /*    padding: 50px 0 50px 50px;*/
-    /*    position: absolute;*/
-    /*    top: 0;*/
-    /*    left: 0;*/
-    /*}*/
-}
 @media (max-width: 600px) {
     .kit {
         padding: 50px 20px 50px 0;

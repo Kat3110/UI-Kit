@@ -23,6 +23,7 @@ export default function SliderText({ slide }) {
               className={index === counter ? `${styles.current}` : `${styles.item}`}
               key={slide.id}
             >
+              <span className={styles.background}></span>
               <Image
                 className={styles.img}
                 src={slide.src}

@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
         <Link className={styles.link} href="/error">Error</Link>
         <Link className={styles.link} href="kit/slider">Slider</Link>
         <Link className={styles.link} href="kit/tabs">Tabs</Link>
+        <Link className={styles.link} href="kit/cards">Card</Link>
       </nav>
       <div className={styles.kit}>{children}</div>
     </>
