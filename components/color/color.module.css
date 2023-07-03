@@ -27,7 +27,7 @@
     font-size: 20px;
 }
 
-.data, text {
+.data, .text {
     color: var(--violet);
     background: var(--white);
     font-size: 17px;

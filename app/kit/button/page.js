@@ -1,6 +1,5 @@
 "use client"
 import {Button} from "@/components/button/Button";
-import img from '../../../public/sp.png'
 
 
 export default function Button() {

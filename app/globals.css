@@ -33,6 +33,7 @@ body {
     flex-direction: row;
     gap: 70px;
     color: var(--black);
+    scrollbar-gutter: stable;
 }
 
 h1 {
