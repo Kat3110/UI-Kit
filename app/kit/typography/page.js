@@ -89,7 +89,7 @@ const cards = [
   }
 ];
 
-export default function Typography() {
+export default function TypographyPage() {
   return (
     <>
       <h1>Typography</h1>
@@ -110,7 +110,6 @@ export default function Typography() {
           ))}
         </div>
       </div>
-
     </>
   )
 }

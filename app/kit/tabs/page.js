@@ -2,7 +2,7 @@
 import styles from './tabs.module.css';
 import Tab from '@/components/tab/Tab'
 
-export default function Tabs() {
+export default function TabPage() {
 
   return (
     <>
