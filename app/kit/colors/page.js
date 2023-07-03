@@ -150,7 +150,7 @@ const cards = [
   },
 ];
 
-export default function Colors() {
+export default function ColorPage() {
   const primaryColors = cards.filter(card => card.title === 'PRIMARY colors');
   const accentColors = cards.filter(card => card.title === 'Accent colors');
   const semanticColors = cards.filter(card => card.title === 'Semantic colors');

@@ -4,7 +4,7 @@ import Space1 from '../../../public/space.jpg'
 import Space from '../../../public/space3.jpg'
 
 
-export default function Cards() {
+export default function CardPage() {
   return (
     <>
       <h1>Card</h1>

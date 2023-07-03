@@ -2,7 +2,7 @@
 import {Button} from "@/components/button/Button";
 
 
-export default function Button() {
+export default function ButtonPage() {
   return (
     <>
       <h1>Buttons</h1>

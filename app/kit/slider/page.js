@@ -8,7 +8,7 @@ import styles from './slider.module.css';
 import Slider from '@/components/slider/Slider'
 import SliderText from "@/components/slider-text/SliderText";
 
-export default function Slider() {
+export default function SliderPage() {
   const slides = [
     {
       id: 1,
