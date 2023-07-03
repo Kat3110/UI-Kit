@@ -24,7 +24,7 @@ export default function Home() {
           implement new features faster. Start with Kit, four fully loaded component libraries, or&nbsp;bring your own
           design system to&nbsp;our production-ready components.</p>
         <Link href="/kit">
-          <button className='home__button'>Get started</button>
+          <button title='Get started' className='home__button'>Get started</button>
         </Link>
         <Earth/>
       </div>

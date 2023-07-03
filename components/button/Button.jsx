@@ -18,6 +18,7 @@ export function Button({
 
   return (
     <button
+      title='button'
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       className={`

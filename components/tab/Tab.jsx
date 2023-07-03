@@ -49,6 +49,7 @@ export default function Tab() {
                   : "tablinks"
               }
               data-country="Mars"
+              title="Mars"
             >
               <span>Mars</span>
             </button>
@@ -57,6 +58,7 @@ export default function Tab() {
                 activeTab === "Neptune" ? "tablinks tablinks-active" : "tablinks"
               }
               data-country="Neptune"
+              title="Neptune"
             >
               <span>Neptune</span>
             </button>
@@ -67,6 +69,7 @@ export default function Tab() {
                   : "tablinks"
               }
               data-country="Venus"
+              title="Venus"
             >
               <span>Venus</span>
             </button>
@@ -75,6 +78,7 @@ export default function Tab() {
                 activeTab === "Mercury" ? "tablinks tablinks-active" : "tablinks"
               }
               data-country="Mercury"
+              title="Mercury"
             >
               <span>Mercury</span>
             </button>
