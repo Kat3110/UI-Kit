@@ -47,6 +47,7 @@ export default function SliderText({ slide }) {
             className={`${styles.btn} ${styles.prev}`}
             onClick={handlePrevClick}
             disabled={counter === 0}
+            title="prev"
           >
             <i className='bx bx-chevron-left'></i>
           </button>
@@ -55,6 +56,7 @@ export default function SliderText({ slide }) {
             className={`${styles.btn} ${styles.next}`}
             onClick={handleNextClick}
             disabled={counter === slide.length - 1}
+            title="next"
           >
             <i className='bx bx-chevron-right'></i>
           </button>
