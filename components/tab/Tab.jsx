@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./tab.css";
 
 export default function Tab() {
-  const [activeTab, setActiveTab] = useState("London");
+  const [activeTab, setActiveTab] = useState("Mars");
 
   useEffect(() => {
     const tabLinks = document.querySelectorAll(".tablinks");
@@ -44,109 +44,93 @@ export default function Tab() {
           <div className="tabs">
             <button
               className={
-                activeTab === "London"
+                activeTab === "Mars"
                   ? "tablinks tablinks-active active"
                   : "tablinks"
               }
-              data-country="London"
+              data-country="Mars"
             >
-              <span>London</span>
+              <span>Mars</span>
             </button>
             <button
               className={
-                activeTab === "Paris" ? "tablinks tablinks-active" : "tablinks"
+                activeTab === "Neptune" ? "tablinks tablinks-active" : "tablinks"
               }
-              data-country="Paris"
+              data-country="Neptune"
             >
-              <span>Paris</span>
+              <span>Neptune</span>
             </button>
             <button
               className={
-                activeTab === "Barcelona"
+                activeTab === "Venus"
                   ? "tablinks tablinks-active"
                   : "tablinks"
               }
-              data-country="Barcelona"
+              data-country="Venus"
             >
-              <span>Barcelona</span>
+              <span>Venus</span>
             </button>
             <button
               className={
-                activeTab === "Madrid" ? "tablinks tablinks-active" : "tablinks"
+                activeTab === "Mercury" ? "tablinks tablinks-active" : "tablinks"
               }
-              data-country="Madrid"
+              data-country="Mercury"
             >
-              <span>Madrid</span>
+              <span>Mercury</span>
             </button>
           </div>
 
           <div className="wrapper-tabcontent">
             <div
-              id="London"
+              id="Mars"
               className={
-                activeTab === "London"
+                activeTab === "Mars"
                     ? "tabcontent tabcontent-active"
                   : "tabcontent"
               }
             >
-              <h3>London</h3>
+              <h3>Mars</h3>
               <p>
-                London is the capital of Great Britain. It is one of the greatest
-                cities in the world. It is an important business and financial
-                centre. It is an intellectual centre, too. Everywhere in London,
-                there are open spaces: Hyde Park and Regent Park are the largest.
-                  The City is the oldest part of London.
+                Fourth planet by distance from Sun and  seventh largest in Solar system; mass of the planet is 10.7% of mass of  Earth. It is named after Mars, ancient Roman god of war, corresponding to ancient Greek Ares.  Mars is also called "red planet" because of reddish tint of surface, given to it by the mineral maghemite - γ—iron(III) oxide.
               </p>
             </div>
             <div
-              id="Paris"
+              id="Neptune"
               className={
-                activeTab === "Paris"
+                activeTab === "Neptune"
                   ? "tabcontent tabcontent-active"
                   : "tabcontent"
               }
             >
-              <h3>Paris</h3>
+              <h3>Neptune</h3>
               <p>
-                Paris is in the Paris department of the Paris-Isle-of-France
-                region. The French historic, political and economic capital, with
-                a population of only 2.5 million is located in the northern part
-                of France. One of the most beautiful cities in the world, home
-                to historical monuments such as Notre Dame, the Eiffel tower
-                (320m), Bastille, Louvre and many more.
+                Eighth and farthest planet of Solar system from  Sun. Its mass exceeds  mass of  Earth by 17.2 times and is third among  planets of  Solar system, and Neptune ranks fourth in equatorial diameter, surpassing  Earth by 3.9 times. Planet is named after Neptune,  Roman god of  seas
               </p>
             </div>
             <div
-              id="Barcelona"
+              id="Venus"
               className={
-                activeTab === "Barcelona"
+                activeTab === "Venus"
                   ? "tabcontent tabcontent-active"
                   : "tabcontent"
               }
             >
-              <h3>Barcelona</h3>
+              <h3>Venus</h3>
               <p>
-                Barcelona has been an urban laboratory since the high Medieval
-                Ages. A place of diversity, a backdrop
-                for a multiplicity of social and cultural processes on multiple scales that reflect
-                different ways of constructing the future, a city with a long
-                experience of urban life and social innovations.
+                Second most distant planet from Sun and sixth largest planet in Solar system, along with Mercury, Earth and Mars, belongs to family of terrestrial planets. Named after ancient Roman goddess of love Venus. By a number of characteristics — for example, by mass and size — Venus is considered the "sister" of the Earth.
               </p>
             </div>
             <div
-              id="Madrid"
+              id="Mercury"
               className={
-                activeTab === "Madrid"
+                activeTab === "Mercury"
                   ? "tabcontent tabcontent-active"
                   : "tabcontent"
               }
             >
-              <h3>Madrid</h3>
+              <h3>Mercury</h3>
               <p>
-                Madrid is in the middle of Spain, in the Community of Madrid.
-                The Community is a large area that includes the city as well as
-                small towns and villages outside the city. Seven million people live
-                in the Community. More than 3 million live in the city itself.
+                Smallest planet in Solar system and closest to Sun. It is named after ancient Roman god of commerce — fast Mercury, because it moves through sky faster than other planets. Its period of revolution around Sun is shortest among all planets of Solar System.
               </p>
             </div>
           </div>
