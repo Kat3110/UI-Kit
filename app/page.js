@@ -18,10 +18,7 @@ export default function Home() {
       <div className='home__box'>
 
         <div className='home__title'>
-            <span>
-              Move faster
-            </span>
-          with intuitive user interface tools
+            <span>Move faster&nbsp; </span>with intuitive user interface tools
         </div>
         <p className='home__subtitle'>Offers a&nbsp;complete set of&nbsp;user interface tools that will help you
           implement new features faster. Start with Kit, four fully loaded component libraries, or&nbsp;bring your own

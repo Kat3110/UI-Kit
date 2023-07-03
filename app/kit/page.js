@@ -29,11 +29,11 @@ export default function Kit() {
           <ul>
             <li><span>Ship faster: </span>
               Over&nbsp;2,500 open-source contributors have poured countless hours into these components. Focus
-              on&nbsp;your core business logic instead of&nbsp;reinventing the wheel&mdash;we&amp;apos;ve got
+              on&nbsp;your core business logic instead of&nbsp;reinventing the wheel&mdash;we&apos;ve got
               your&nbsp;UI covered.
             </li>
-            <li><span>Beautiful by&nbsp;default:</span>
-              we&amp;apos;re meticulous about our implementation of&nbsp;Material Design, ensuring that every Kit
+            <li><span>Beautiful by&nbsp;default: </span>
+              we&apos;re meticulous about our implementation of&nbsp;Material Design, ensuring that every Kit
               UI&nbsp;component meets the highest standards of&nbsp;form and function, but diverge from the official
               spec where necessary to&nbsp;provide multiple great options.
             </li>
@@ -42,18 +42,18 @@ export default function Kit() {
               in&nbsp;our store demonstrate how far you can go&nbsp;with customization.
             </li>
             <li><span>Cross-team collaboration: </span>
-              Kit UI&amp;apos;s intuitive developer experience reduces the barrier to&nbsp;entry for back-end developers
+              Kit UI &apos;s intuitive developer experience reduces the barrier to&nbsp;entry for back-end developers
               and less technical designers, empowering teams to&nbsp;collaborate more effectively. The design kits
               streamline your workflow and boost consistency between designers and
               developers.
             </li>
             <li>
               <span>
-                Trusted by&nbsp;thousands of&nbsp;organizations:
+                Trusted by&nbsp;thousands of&nbsp;organizations:&nbsp;
               </span>
-              Kit UI&nbsp;has the largest&nbsp;UI community in&nbsp;the React ecosystem. It&amp;apos;s almost
-              as&nbsp;old as&nbsp;React itself&mdash;its history stretches back to&nbsp;2014&mdash;and we&amp;apos;re
-              in&nbsp;this for the long haul. You can count on&nbsp;the community&amp;apos;s support for years
+               Kit UI&nbsp;has the largest&nbsp;UI community in&nbsp;the React ecosystem. It&apos;s almost
+              as&nbsp;old as&nbsp;React itself&mdash;its history stretches back to&nbsp;2014&mdash;and we&apos;re
+              in&nbsp;this for the long haul. You can count on&nbsp;the community&apos;s support for years
               to&nbsp;come (e.g. Stack Overflow).
             </li>
           </ul>
