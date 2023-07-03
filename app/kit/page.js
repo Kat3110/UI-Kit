@@ -1,4 +1,4 @@
-import styles from './kit.module.css'
+import styles from "./kit.module.css"
 
 
 export default function Kit() {
