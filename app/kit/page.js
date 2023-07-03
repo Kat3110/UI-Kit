@@ -4,7 +4,7 @@ import styles from './kit.module.css'
 export default function Kit() {
   return (
     <>
-      <h1 className={styles.title}>UI-Kit - Overview</h1>
+      <h1>UI-Kit - Overview</h1>
       <div className={styles.descriptions}>
         <div className="block">
           <h2>Introduction</h2>
