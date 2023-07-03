@@ -26,7 +26,6 @@ export default function Kit() {
         </div>
         <div className="block">
           <h2>Advantages of Kit UI</h2>
-          
           <hr/>
           <ul>
             <li><span>Ship faster: </span> Over 2,500 open-source contributors have poured countless hours into these
