@@ -18,7 +18,11 @@ export default function RootLayout({ children }) {
 
   return (
     <>
-      <button className={styles.menu} onClick={toggleMenu}>
+      <button
+        className={styles.menu}
+        onClick={toggleMenu}
+        title="menu"
+      >
         <i className='bx bx-menu-alt-left'></i>
       </button>
       <nav  className={`${styles.nav} ${isActive ? styles.active : ''}`}>
