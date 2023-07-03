@@ -9,20 +9,20 @@ export default function CardPage() {
     <>
       <h1>Card</h1>
       <div className='block'>
-        <h2>Card flip with 3D effect</h2>
+        <h2>Card flip with 3D&nbsp;effect</h2>
         <hr/>
         <div className='block__card'>
           <Card
             title='Space'
-            description="Cosmonaut's diary"
-            subtitle="The view from porthole is something incredible. I see vast emptiness of space and beauty of our planet"
+            description='Cosmonaut&rsquo;s diary'
+            subtitle='The view from porthole is&nbsp;something incredible. I&nbsp;see vast emptiness of&nbsp;space and beauty of&nbsp;our planet'
             image={Space}
             rotate
           />
           <Card
             title='Space'
-            description="Important reminder"
-            subtitle="The earth is our home, we must protect it and preserve it for future generations."
+            description='Important reminder'
+            subtitle='The earth is&nbsp;our home, we&nbsp;must protect it&nbsp;and preserve it&nbsp;for future generations.'
             image={Space1}
           />
         </div>

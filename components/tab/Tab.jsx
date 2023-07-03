@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import "./tab.css";
 
 export default function Tab() {
@@ -85,14 +85,17 @@ export default function Tab() {
               id="Mars"
               className={
                 activeTab === "Mars"
-                    ? "tabcontent tabcontent-active"
+                  ? "tabcontent tabcontent-active"
                   : "tabcontent"
               }
             >
               <h3>Mars</h3>
               <p>
-                Fourth planet by distance from Sun and  seventh largest in Solar system; mass of the planet is 10.7% of mass of  Earth. It is named after Mars, ancient Roman god of war, corresponding to ancient Greek Ares.  Mars is also called "red planet" because of reddish tint of surface, given to it by the mineral maghemite - γ—iron(III) oxide.
-              </p>
+                Fourth planet by&nbsp;distance from Sun and seventh largest in&nbsp;Solar system; mass of&nbsp;the
+                planet is&nbsp;10.7% of&nbsp;mass of&nbsp;Earth. It&nbsp;is&nbsp;named after Mars, ancient Roman god
+                of&nbsp;war, corresponding to&nbsp;ancient Greek Ares. Mars is&nbsp;also called &laquo;red
+                planet&raquo; because of&nbsp;reddish tint of&nbsp;surface, given to&nbsp;it&nbsp;by&nbsp;the mineral
+                maghemite&nbsp;&mdash; &gamma;&mdash;iron(III) oxide.</p>
             </div>
             <div
               id="Neptune"
@@ -104,8 +107,10 @@ export default function Tab() {
             >
               <h3>Neptune</h3>
               <p>
-                Eighth and farthest planet of Solar system from  Sun. Its mass exceeds  mass of  Earth by 17.2 times and is third among  planets of  Solar system, and Neptune ranks fourth in equatorial diameter, surpassing  Earth by 3.9 times. Planet is named after Neptune,  Roman god of  seas
-              </p>
+                Eighth and farthest planet of&nbsp;Solar system from Sun. Its mass exceeds mass of&nbsp;Earth
+                by&nbsp;17.2 times and is&nbsp;third among planets of&nbsp;Solar system, and Neptune ranks fourth
+                in&nbsp;equatorial diameter, surpassing Earth by&nbsp;3.9&nbsp;times. Planet is&nbsp;named after
+                Neptune, Roman god of&nbsp;seas</p>
             </div>
             <div
               id="Venus"
@@ -117,8 +122,10 @@ export default function Tab() {
             >
               <h3>Venus</h3>
               <p>
-                Second most distant planet from Sun and sixth largest planet in Solar system, along with Mercury, Earth and Mars, belongs to family of terrestrial planets. Named after ancient Roman goddess of love Venus. By a number of characteristics — for example, by mass and size — Venus is considered the "sister" of the Earth.
-              </p>
+                Second most distant planet from Sun and sixth largest planet in&nbsp;Solar system, along with Mercury,
+                Earth and Mars, belongs to&nbsp;family of&nbsp;terrestrial planets. Named after ancient Roman goddess
+                of&nbsp;love Venus. By&nbsp;a&nbsp;number of&nbsp;characteristics&nbsp;&mdash; for example, by&nbsp;mass
+                and size&nbsp;&mdash; Venus is&nbsp;considered the &laquo;sister&raquo; of&nbsp;the Earth.</p>
             </div>
             <div
               id="Mercury"
@@ -130,8 +137,10 @@ export default function Tab() {
             >
               <h3>Mercury</h3>
               <p>
-                Smallest planet in Solar system and closest to Sun. It is named after ancient Roman god of commerce — fast Mercury, because it moves through sky faster than other planets. Its period of revolution around Sun is shortest among all planets of Solar System.
-              </p>
+                Smallest planet in&nbsp;Solar system and closest to&nbsp;Sun. It&nbsp;is&nbsp;named after ancient Roman
+                god of&nbsp;commerce&nbsp;&mdash; fast Mercury, because it&nbsp;moves through sky faster than other
+                planets. Its period of&nbsp;revolution around Sun is&nbsp;shortest among all planets of&nbsp;Solar
+                System.</p>
             </div>
           </div>
         </div>
