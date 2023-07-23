@@ -1,4 +1,4 @@
-# [UI Kit](ui-kit-taupe.vercel.app)
+# [UI Kit](https://ui-kit-taupe.vercel.app)
 
 ## О проекте:
 
