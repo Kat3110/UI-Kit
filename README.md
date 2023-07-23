@@ -1,14 +1,24 @@
-## Cайт создан при помощи React, Next.js c использованием JS графики - Three.js и обычной animations css.
+# [UI Kit](ui-kit-taupe.vercel.app)
 
-## Getting Started
+## О проекте:
 
-```bash
+UI Kit является набором готовых компонентов, которые облегчают процесс разработки пользовательского интерфейса. Он включает в себя множество компонентов, таких как кнопки, слайды, табсы и многое другое.
+
+На данный момент он пополняется, реализованы базовые компоненты
+
+## Технологии:
+
+* React, 
+* Next.js
+* Three.js.
+
+## Установка:
+
+npm install
+
+## Запуск:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
