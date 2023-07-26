@@ -13,7 +13,8 @@ export function Button({
                          hoverColor,
                          children,
                          disabled,
-                         icon
+                         icon,
+                         iconIsRight
                        }) {
 
   const [isHover, setIsHover] = useState(false);
@@ -37,7 +38,9 @@ export function Button({
       }}
       disabled={!!disabled}
     >
-      {icon ? <i className={icon}></i> : ''}{children ? children : 'Click Me'}
+      {iconIsRight ? icon ? <i className={icon}></i> : '' : ''}
+      {children ? children : 'Click Me'}
+      {!iconIsRight ? icon ? <i className={icon}></i> : '' : ''}
     </button>
   )
 }

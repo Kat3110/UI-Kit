@@ -125,7 +125,6 @@ export default function ButtonPage() {
           hoverBorder="1px solid red"
         />
       </div>
-
       <h2>Button rounded</h2>
       <hr/>
       <div className="block__btn">
@@ -175,7 +174,6 @@ export default function ButtonPage() {
           hoverColor="var(--violet)"
         />
       </div>
-
       <h2>Button disabled</h2>
       <hr/>
       <div className="block__btn">
@@ -190,7 +188,7 @@ export default function ButtonPage() {
           disabled
         />
       </div>
-      <h2>Button icon</h2>
+      <h2>Button icon and text</h2>
       <hr/>
       <div className="block__btn">
         <Button
@@ -202,6 +200,54 @@ export default function ButtonPage() {
           hoverBg="var(--white)"
           hoverColor="var(--violet)"
           icon="bx bx-planet bx-spin"
+          iconIsRight
+        />
+        <Button
+          rounded="12px"
+          sizeL
+          fontS="20px"
+          color="var(--white)"
+          bg="var(--violet)"
+          hoverBg="var(--white)"
+          hoverColor="var(--violet)"
+          icon="bx bx-planet bx-spin"
+        />
+      </div>
+      <h2>Button icon</h2>
+      <hr/>
+      <div className="block__btn">
+        <Button
+          children=' '
+          rounded="12px"
+          sizeL
+          fontS="20px"
+          color="var(--white)"
+          bg="var(--violet)"
+          hoverBg="var(--white)"
+          hoverColor="var(--violet)"
+          icon="bx bx-planet bx-spin"
+        />
+        <Button
+          children=' '
+          rounded="12px"
+          sizeL
+          fontS="20px"
+          color="var(--white)"
+          bg="var(--violet)"
+          hoverBg="var(--white)"
+          hoverColor="var(--violet)"
+          icon="bx bx-right-arrow-alt"
+        />
+        <Button
+          children=' '
+          rounded="12px"
+          sizeL
+          fontS="20px"
+          color="var(--white)"
+          bg="var(--violet)"
+          hoverBg="var(--white)"
+          hoverColor="var(--violet)"
+          icon="bx bx-trash bx-tada"
         />
       </div>
     </div>
