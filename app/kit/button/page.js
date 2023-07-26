@@ -15,193 +15,247 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
-          text='Button Size'
+          text='Primary'
           rounded="12px"
           size="L"
+          fontS="25px"
+          color="var(--white)"
+          bg="var(--blue)"
+          hoverBg="#6979f899"
+        />
+        <Button
+          text='Secondary'
+          rounded="12px"
           fontS="20px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="#be52f2"
+          hoverBg='#be52f299'
         />
         <Button
-          text='Button Size'
-          rounded="12px"
-          fontS="18px"
-          color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
-        />
-        <Button
-          text='Button Size'
+          text='Success'
           rounded="12px"
           size="S"
-          fontS="16px"
+          fontS="18px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="#00c48c"
+          hoverBg="#00c48c99"
         />
       </div>
       <h2>Button color</h2>
       <hr/>
       <div className="block__btn">
         <Button
-          text='Button Color'
+          text='Primary'
           rounded="12px"
           size="L"
           fontS="20px"
-          color="var(--light-blue)"
+          color="var(--white)"
           bg="var(--blue)"
-          hoverBg="var(--light-blu)"
-          hoverColor="var(--blue)"
+          hoverBg="#6979f899"
         />
         <Button
-          text='Button Color'
-          rounded="12px"
-          size="L"
-          fontS="20px"
-          color="#f700c2"
-          bg="pink"
-          hoverBg="green"
-          hoverColor="var(--white)"
-        />
-        <Button
-          text='Button Color'
+          text='Secondary'
           rounded="12px"
           size="L"
           fontS="20px"
           color="var(--white)"
-          bg="#FFA26B"
-          hoverBg="#66B5F8"
-          hoverColor="#df0"
+          bg="#be52f2"
+          hoverBg='#be52f299'
         />
         <Button
-          text='Button Color'
+          text='Success'
           rounded="12px"
           size="L"
           fontS="20px"
           color="var(--white)"
-          bg="black"
-          hoverBg="white"
-          hoverColor="black"
+          bg="#00c48c"
+          hoverBg="#00c48c99"
+        />
+        <Button
+          text='Info'
+          rounded="12px"
+          size="L"
+          fontS="20px"
+          color="var(--white)"
+          bg="#0084f4"
+          hoverBg="#0084f499"
+        />
+        <Button
+          text='Warning'
+          rounded="12px"
+          size="L"
+          fontS="20px"
+          color="var(--white)"
+          bg="#ffa26b"
+          hoverBg="#ffa26b99"
+        />
+        <Button
+          text='Danger'
+          rounded="12px"
+          size="L"
+          fontS="20px"
+          color="var(--white)"
+          bg="#ff647c"
+          hoverBg="#ff647c99"
         />
       </div>
       <h2>Button outline</h2>
       <hr/>
       <div className="block__btn">
         <Button
-          text='Button Outline'
+          text='Primary'
           rounded="12px"
           size="L"
           fontS="20px"
-          color="var(--blue)"
+          color="var(--black)"
+          hoverColor="var(--white)"
           bg="transparent"
-          hoverColor="#0cff00"
-          border="1px solid #6979f887"
-          hoverBorder="1px solid #2edd0d91"
+          hoverBg="#6979f899"
+          hoverBorder="1px solid #6979f899"
+          border="1px solid #6979f899"
         />
         <Button
-          text='Button Outline'
+          text='Secondary'
           rounded="12px"
           size="L"
           fontS="20px"
-          color="#f700c2"
+          color="var(--black)"
+          hoverColor="var(--white)"
           bg="transparent"
-          hoverColor="green"
-          border="1px solid pink"
-          hoverBorder="1px solid green"
+          hoverBg='#be52f299'
+          hoverBorder="1px solid #be52f299"
+          border="1px solid #be52f299"
         />
         <Button
-          text='Button Outline'
+          text='Success'
           rounded="12px"
           size="L"
           fontS="20px"
-          color="#66B5F8"
+          color="var(--black)"
+          hoverColor="var(--white)"
           bg="transparent"
-          hoverColor="#66B5F8"
-          border="1px solid #00ff627d"
-          hoverBorder="1px solid #fd07cf"
+          hoverBg='#00c48c99'
+          hoverBorder="1px solid #00c48c99"
+          border="1px solid #00c48c99"
         />
         <Button
-          text='Button Outline'
+          text='Info'
           rounded="12px"
           size="L"
           fontS="20px"
-          color="black"
+          color="var(--black)"
+          hoverColor="var(--white)"
           bg="transparent"
-          hoverColor="red"
-          border="1px solid black"
-          hoverBorder="1px solid red"
+          hoverBg='#0084f499'
+          hoverBorder="1px solid #0084f499"
+          border="1px solid #0084f499"
+        />
+        <Button
+          text='Warning'
+          rounded="12px"
+          size="L"
+          fontS="20px"
+          color="var(--black)"
+          hoverColor="var(--white)"
+          bg="transparent"
+          hoverBg='#ffa26b99'
+          hoverBorder="1px solid #ffa26b99"
+          border="1px solid #ffa26b99"
+        />
+        <Button
+          text='Danger'
+          rounded="12px"
+          size="L"
+          fontS="20px"
+          color="var(--black)"
+          hoverColor="var(--white)"
+          bg="transparent"
+          hoverBg='#ff647c99'
+          hoverBorder="1px solid #ff647c99"
+          border="1px solid #ff647c99"
         />
       </div>
       <h2>Button rounded</h2>
       <hr/>
       <div className="block__btn">
         <Button
-          text='Rounded'
+          text='Primary'
           rounded="0"
           size="L"
           fontS="20px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="var(--blue)"
+          hoverBg="#6979f899"
         />
         <Button
-          text='Rounded'
+          text='Secondary'
           rounded="4px"
           size="L"
           fontS="20px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="#be52f2"
+          hoverBg='#be52f299'
         />
         <Button
-          text='Rounded'
-          rounded="10px"
+          text='Success'
+          rounded="8px"
           size="L"
           fontS="20px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="#00c48c"
+          hoverBg="#00c48c99"
         />
         <Button
-          text='Rounded'
+          text='Info'
           rounded="12px"
           size="L"
           fontS="20px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="#0084f4"
+          hoverBg="#0084f499"
         />
         <Button
-          text='Rounded'
+          text='Warning'
+          rounded="18px"
+          size="L"
+          fontS="20px"
+          color="var(--white)"
+          bg="#ffa26b"
+          hoverBg="#ffa26b99"
+        />
+        <Button
+          text='Danger'
           rounded="25px"
           size="L"
           fontS="20px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="#ff647c"
+          hoverBg="#ff647c99"
         />
       </div>
       <h2>Button disabled</h2>
       <hr/>
       <div className="block__btn">
         <Button
-          text='Disabled'
+          text='Primary'
           rounded="12px"
-          sizeL
+          size="L"
           fontS="20px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="var(--blue)"
+          hoverBg="#6979f899"
+          disabled
+        />
+        <Button
+          text='Secondary'
+          rounded="12px"
+          size="L"
+          fontS="20px"
+          color="var(--black)"
+          hoverColor="var(--white)"
+          bg="transparent"
+          hoverBg='#be52f299'
+          border="1px solid #be52f299"
           disabled
         />
       </div>
@@ -209,26 +263,26 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
-          text='Button'
+          text='Primary'
           rounded="12px"
-          sizeL
+          size="L"
           fontS="20px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="var(--blue)"
+          hoverBg="#6979f899"
           icon="bx bx-planet"
           iconIsRight
         />
         <Button
-          text='Button'
+          text='Secondary'
           rounded="12px"
-          sizeL
+          size="L"
           fontS="20px"
-          color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          color="var(--black)"
+          hoverColor="var(--white)"
+          bg="transparent"
+          hoverBg='#be52f299'
+          border="1px solid #be52f299"
           icon="bx bx-star"
         />
       </div>
@@ -238,35 +292,31 @@ export default function ButtonPage() {
         <Button
           text=' '
           rounded="12px"
-          sizeL
-          fontS="20px"
+          fontS="16px"
           color="var(--white)"
-          bg="var(--violet)"
-          hoverBg="var(--white)"
-          hoverColor="var(--violet)"
+          bg="var(--blue)"
+          hoverBg="#6979f899"
           icon="bx bx-planet bx-spin"
         />
         <Button
           text=' '
           rounded="12px"
-          sizeL
-          fontS="20px"
-          color="var(--light-blue)"
-          bg="var(--blue)"
-          hoverBg="var(--light-blu)"
-          hoverColor="var(--blue)"
+          fontS="16px"
+          color="var(--black)"
+          hoverColor="var(--white)"
+          bg="transparent"
+          hoverBg='#be52f299'
+          border="1px solid #be52f299"
           icon="bx bx-right-arrow-alt"
         />
         <Button
           text=' '
           rounded="12px"
-          sizeL
-          fontS="20px"
+          fontS="16px"
           icon="bx bx-trash bx-tada"
-          color="red"
-          bg="black"
-          hoverBg="red"
-          hoverColor="white"
+          color="var(--white)"
+          bg="#00c48c"
+          hoverBg="#00c48c99"
         />
       </div>
     </div>
