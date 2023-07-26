@@ -1,10 +1,12 @@
 import styles from './button.module.css';
-import { useState} from 'react';
+import {useState} from 'react';
 
 export function Button({
                          rounded,
                          color,
                          bg,
+                         border,
+                         hoverBorder,
                          size,
                          fontS,
                          hoverBg,
@@ -18,7 +20,7 @@ export function Button({
 
   return (
     <button
-      title='button'
+      title="button"
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       className={`
@@ -28,13 +30,14 @@ export function Button({
       style={{
         fontSize: fontS ? fontS : null,
         borderRadius: rounded ? rounded : null,
+        border: isHover && hoverBorder ? hoverBorder : (border ? border : null),
         background: isHover && hoverBg ? hoverBg : (bg ? bg : null),
         color: isHover && hoverColor ? hoverColor : (color ? color : null),
         i: icon ? icon : null,
       }}
       disabled={!!disabled}
     >
-      {icon ? <i className={icon}></i>: ''}{children ? children : 'Click Me'}
+      {icon ? <i className={icon}></i> : ''}{children ? children : 'Click Me'}
     </button>
   )
 }
