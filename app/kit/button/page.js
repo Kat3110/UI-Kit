@@ -15,6 +15,7 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
+          text='Button Size'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -24,6 +25,7 @@ export default function ButtonPage() {
           hoverColor="var(--violet)"
         />
         <Button
+          text='Button Size'
           rounded="12px"
           fontS="18px"
           color="var(--white)"
@@ -32,6 +34,7 @@ export default function ButtonPage() {
           hoverColor="var(--violet)"
         />
         <Button
+          text='Button Size'
           rounded="12px"
           size="S"
           fontS="16px"
@@ -45,6 +48,7 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
+          text='Button Color'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -54,6 +58,7 @@ export default function ButtonPage() {
           hoverColor="var(--blue)"
         />
         <Button
+          text='Button Color'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -63,6 +68,7 @@ export default function ButtonPage() {
           hoverColor="var(--white)"
         />
         <Button
+          text='Button Color'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -72,6 +78,7 @@ export default function ButtonPage() {
           hoverColor="#df0"
         />
         <Button
+          text='Button Color'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -85,6 +92,7 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
+          text='Button Outline'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -95,6 +103,7 @@ export default function ButtonPage() {
           hoverBorder="1px solid #2edd0d91"
         />
         <Button
+          text='Button Outline'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -105,6 +114,7 @@ export default function ButtonPage() {
           hoverBorder="1px solid green"
         />
         <Button
+          text='Button Outline'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -115,6 +125,7 @@ export default function ButtonPage() {
           hoverBorder="1px solid #fd07cf"
         />
         <Button
+          text='Button Outline'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -129,6 +140,7 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
+          text='Rounded'
           rounded="0"
           size="L"
           fontS="20px"
@@ -138,6 +150,7 @@ export default function ButtonPage() {
           hoverColor="var(--violet)"
         />
         <Button
+          text='Rounded'
           rounded="4px"
           size="L"
           fontS="20px"
@@ -147,6 +160,7 @@ export default function ButtonPage() {
           hoverColor="var(--violet)"
         />
         <Button
+          text='Rounded'
           rounded="10px"
           size="L"
           fontS="20px"
@@ -156,6 +170,7 @@ export default function ButtonPage() {
           hoverColor="var(--violet)"
         />
         <Button
+          text='Rounded'
           rounded="12px"
           size="L"
           fontS="20px"
@@ -165,6 +180,7 @@ export default function ButtonPage() {
           hoverColor="var(--violet)"
         />
         <Button
+          text='Rounded'
           rounded="25px"
           size="L"
           fontS="20px"
@@ -178,6 +194,7 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
+          text='Disabled'
           rounded="12px"
           sizeL
           fontS="20px"
@@ -192,6 +209,7 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
+          text='Button'
           rounded="12px"
           sizeL
           fontS="20px"
@@ -203,6 +221,7 @@ export default function ButtonPage() {
           iconIsRight
         />
         <Button
+          text='Button'
           rounded="12px"
           sizeL
           fontS="20px"
@@ -217,7 +236,7 @@ export default function ButtonPage() {
       <hr/>
       <div className="block__btn">
         <Button
-          children='&nbsp;'
+          text=' '
           rounded="12px"
           sizeL
           fontS="20px"
@@ -228,7 +247,7 @@ export default function ButtonPage() {
           icon="bx bx-planet bx-spin"
         />
         <Button
-          children='&nbsp;'
+          text=' '
           rounded="12px"
           sizeL
           fontS="20px"
@@ -239,7 +258,7 @@ export default function ButtonPage() {
           icon="bx bx-right-arrow-alt"
         />
         <Button
-          children='&nbsp;'
+          text=' '
           rounded="12px"
           sizeL
           fontS="20px"

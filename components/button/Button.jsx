@@ -11,7 +11,7 @@ export function Button({
                          fontS,
                          hoverBg,
                          hoverColor,
-                         children,
+                         text,
                          disabled,
                          icon,
                          iconIsRight
@@ -39,7 +39,7 @@ export function Button({
       disabled={!!disabled}
     >
       {iconIsRight ? icon ? <i className={icon}></i> : '' : ''}
-      {children ? children : 'Click Me'}
+      {text ? text : 'Click Me'}
       {!iconIsRight ? icon ? <i className={icon}></i> : '' : ''}
     </button>
   )
