@@ -217,7 +217,7 @@ export default function ButtonPage() {
           bg="var(--violet)"
           hoverBg="var(--white)"
           hoverColor="var(--violet)"
-          icon="bx bx-planet bx-spin"
+          icon="bx bx-planet"
           iconIsRight
         />
         <Button
@@ -229,7 +229,7 @@ export default function ButtonPage() {
           bg="var(--violet)"
           hoverBg="var(--white)"
           hoverColor="var(--violet)"
-          icon="bx bx-planet bx-spin"
+          icon="bx bx-star"
         />
       </div>
       <h2>Button icon</h2>
