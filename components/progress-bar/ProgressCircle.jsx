@@ -38,16 +38,15 @@ export default function ProgressCircle({percent, color}) {
             pathLength="100"/>
         </svg>
       </div>
-      <button onClick={handleButtonClick}>asdfg</button>
-      {/*<Button*/}
-      {/*  text=" + 10% "*/}
-      {/*  rounded="12px"*/}
-      {/*  fontS="18px"*/}
-      {/*  color="var(--white)"*/}
-      {/*  bg="var(--primary)"*/}
-      {/*  hoverBg="var(--primary-hover)"*/}
-      {/*  onClick={handleButtonClick}*/}
-      {/*/>*/}
+      <Button
+        text=" + 10% "
+        rounded="12px"
+        fontS="18px"
+        color="var(--white)"
+        bg="var(--primary)"
+        hoverBg="var(--primary-hover)"
+        click={handleButtonClick}
+      />
     </div>
   )
 }

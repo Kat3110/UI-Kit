@@ -14,7 +14,8 @@ export function Button({
                          text,
                          disabled,
                          icon,
-                         iconIsRight
+                         iconIsRight,
+                         click
                        }) {
 
   const [isHover, setIsHover] = useState(false);
@@ -37,6 +38,7 @@ export function Button({
         i: icon ? icon : null,
       }}
       disabled={!!disabled}
+      onClick={click}
     >
       {iconIsRight ? icon ? <i className={icon}></i> : '' : ''}
       {text ? text : 'Click Me'}

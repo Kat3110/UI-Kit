@@ -11,7 +11,7 @@ export default function Progress() {
         <h2>Progress Bar</h2>
         <hr/>
         <ProgressCircle
-          percent={60}
+          percent={40}
           color='primary'
         />
       </div>
