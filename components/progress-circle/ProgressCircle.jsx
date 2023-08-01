@@ -10,7 +10,6 @@ export default function ProgressCircle({percent, color}) {
     const newPercent = currentPercent + 10;
     if (newPercent <= 100) {
       setCurrentPercent(newPercent);
-
     }
   };
 

@@ -11,7 +11,8 @@ export default function RootLayout({children}) {
     <html lang="en">
     <head>
       <meta name="description" content="UI-kit"></meta>
-      <title>UI Kit test</title>
+      <link rel='icon' href='333.png'/>
+      <title>UI Kit</title>
       <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"></link>
     </head>
     <body className={encode.className}>
