@@ -15,7 +15,7 @@ export default function Progressbar({percent, color}) {
 
   return (
     <div className="progress__block">
-      <div className="progress__container" style={{maxWidth: 'max-width'}}>
+      <div className="progress__container" style={{maxWidth: '100%'}}>
         <span className="progress__percent" style={{color: `var(--${color})`}}>{currentPercent}%</span>
         <div className="progress" style={{background: `var(--${color}-hover)`}}>
           <div className="progress__bar" style={{width: `${currentPercent}%`, background: `var(--${color})`}}></div>

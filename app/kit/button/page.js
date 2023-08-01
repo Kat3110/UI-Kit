@@ -1,8 +1,14 @@
 'use client'
 import {Button} from '@/components/button/Button';
+import {useState} from 'react';
 
 
 export default function ButtonPage() {
+
+  function handleClick() {
+    alert('Button clicked!');
+  }
+
   return (<>
     <h1>Buttons</h1>
     <div className="block">
@@ -317,6 +323,20 @@ export default function ButtonPage() {
           color="var(--white)"
           bg="#00c48c"
           hoverBg="#00c48c99"
+        />
+      </div>
+      <h2>Button Click</h2>
+      <hr/>
+      <div className="block__btn">
+        <Button
+          text='Click Me'
+          rounded="12px"
+          size="L"
+          fontS="25px"
+          color="var(--white)"
+          bg="var(--blue)"
+          hoverBg="#6979f899"
+          click={handleClick}
         />
       </div>
     </div>
