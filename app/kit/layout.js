@@ -33,10 +33,11 @@ export default function RootLayout({ children }) {
         <Link className={styles.link} href="kit/button">Button</Link>
         <Link className={styles.link} href="kit/colors">Colors</Link>
         <Link className={styles.link} href="kit/typography">Typography</Link>
-        <Link className={styles.link} href="/error">Error</Link>
         <Link className={styles.link} href="kit/slider">Slider</Link>
         <Link className={styles.link} href="kit/tabs">Tabs</Link>
         <Link className={styles.link} href="kit/cards">Card</Link>
+        <Link className={styles.link} href="kit/progress">Progress</Link>
+        <Link className={styles.link} href="/error">Error</Link>
       </nav>
       <div className={styles.kit} onClick={handleKitClick}>{children}</div>
     </>
