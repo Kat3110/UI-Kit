@@ -17,7 +17,7 @@ export default function ProgressCircle({percent, color}) {
   return (
     <div className='progress-circle__block'>
       <div className="progress-circle">
-        <span className="progress-circle__percent" style={{color: 'var(--primary)'}}>{currentPercent}%</span>
+        <span className="progress-circle__percent" style={{color: `var(--${color})`}}>{currentPercent}%</span>
         <svg width="120" height="120" viewBox="0 0 120 120" className="progress-circle__svg">
           <circle
             cx="60"

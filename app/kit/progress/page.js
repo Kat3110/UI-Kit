@@ -1,6 +1,6 @@
 'use client'
 import {useState, useEffect} from 'react';
-import ProgressCircle from '@/components/progress-bar/ProgressCircle';
+import ProgressCircle from '@/components/progress-circle/ProgressCircle';
 
 export default function Progress() {
 
@@ -12,7 +12,7 @@ export default function Progress() {
         <hr/>
         <ProgressCircle
           percent={40}
-          color='primary'
+          color='success'
         />
       </div>
     </div>
