@@ -159,7 +159,7 @@ export default function ColorPage() {
 
   return (
     <>
-      <h1>Сolors</h1>
+      <h1>colors</h1>
       <div className='block'>
         <div className={styles.card}>
           <h2>primary colors</h2>
